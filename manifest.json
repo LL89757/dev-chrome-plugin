@@ -4,6 +4,8 @@
   "description": "用于开发环境登录", 
   "version": "0.1", 
   "browser_action": {
+    "default_title": "",
+    "default_popup": "popup/popup.html"
   },
   "background":
     {
@@ -18,3 +20,4 @@
 	],
   "permissions": ["storage","http://*/*", "https://*/*","notifications"]
 }
+
